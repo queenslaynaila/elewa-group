@@ -12,6 +12,7 @@ import { VentureLabsDiscoverComponent } from './components/venture-labs-discover
 import { VentureLabsRoutingModule } from './venture-labs.routing';
 import { VentureLabsStartupsComponent } from './components/venture-labs-startups/venture-labs-startups.component';
 import { VentureLabsInvestmentsComponent } from './components/venture-labs-investments/venture-labs-investments.component';
+import { CardsModule } from '@elewa-group/features/components/cards';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { VentureLabsInvestmentsComponent } from './components/venture-labs-inves
     VentureLabsRoutingModule,
     LayoutModule,
     BannersModule,
+    CardsModule
   ],
   declarations: [
     VentureLabsHeroComponent,
