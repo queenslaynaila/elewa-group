@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'elewa-group-venture-labs-investments',
@@ -6,5 +6,31 @@ import { Component } from '@angular/core';
   styleUrls: ['./venture-labs-investments.component.css']
 })
 export class VentureLabsInvestmentsComponent {
-
+  isimage = true
+  cards = [
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+    {
+      imageUrl:"https://i.postimg.cc/wxnQLbYY/nextsteps.png"
+    },
+  ]
 }
